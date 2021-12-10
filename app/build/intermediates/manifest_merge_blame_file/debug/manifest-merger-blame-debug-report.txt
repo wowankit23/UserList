@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.test.mobileprogarmming"
+4    android:versionCode="1"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\UserList\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\UserList\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\UserList\app\src\main\AndroidManifest.xml:4:1-79
+11-->D:\UserList\app\src\main\AndroidManifest.xml:4:18-60
+12
+13    <application
+13-->D:\UserList\app\src\main\AndroidManifest.xml:5:5-24:19
+14        android:name="com.test.mobileprogarmming.UserApplication"
+14-->D:\UserList\app\src\main\AndroidManifest.xml:7:9-66
+15        android:allowBackup="true"
+15-->D:\UserList\app\src\main\AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.5.0] C:\Users\ankit.chhabra\.gradle\caches\transforms-3\763bedec351c3f91de4026c3b6c19f89\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\UserList\app\src\main\AndroidManifest.xml:8:9-43
+20        android:label="@string/app_name"
+20-->D:\UserList\app\src\main\AndroidManifest.xml:9:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\UserList\app\src\main\AndroidManifest.xml:10:9-54
+22        android:supportsRtl="true"
+22-->D:\UserList\app\src\main\AndroidManifest.xml:11:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.MobileProgarmming" >
+24-->D:\UserList\app\src\main\AndroidManifest.xml:12:9-55
+25        <activity
+25-->D:\UserList\app\src\main\AndroidManifest.xml:14:9-20:20
+26            android:name="com.test.mobileprogarmming.ui.splash.SplashActivity"
+26-->D:\UserList\app\src\main\AndroidManifest.xml:14:19-59
+27            android:exported="true" >
+27-->D:\UserList\app\src\main\AndroidManifest.xml:14:60-83
+28            <intent-filter>
+28-->D:\UserList\app\src\main\AndroidManifest.xml:15:13-19:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\UserList\app\src\main\AndroidManifest.xml:16:17-69
+29-->D:\UserList\app\src\main\AndroidManifest.xml:16:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\UserList\app\src\main\AndroidManifest.xml:18:17-77
+31-->D:\UserList\app\src\main\AndroidManifest.xml:18:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->D:\UserList\app\src\main\AndroidManifest.xml:21:9-23:20
+35            android:name="com.test.mobileprogarmming.ui.listing.ListingActivity"
+35-->D:\UserList\app\src\main\AndroidManifest.xml:21:19-61
+36            android:exported="true" >
+36-->D:\UserList\app\src\main\AndroidManifest.xml:21:62-85
+37        </activity>
+38
+39        <service
+39-->[androidx.room:room-runtime:2.3.0] C:\Users\ankit.chhabra\.gradle\caches\transforms-3\b08d069a487178731d1c3cd63c000071\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+40            android:name="androidx.room.MultiInstanceInvalidationService"
+40-->[androidx.room:room-runtime:2.3.0] C:\Users\ankit.chhabra\.gradle\caches\transforms-3\b08d069a487178731d1c3cd63c000071\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+41            android:directBootAware="true"
+41-->[androidx.room:room-runtime:2.3.0] C:\Users\ankit.chhabra\.gradle\caches\transforms-3\b08d069a487178731d1c3cd63c000071\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+42            android:exported="false" />
+42-->[androidx.room:room-runtime:2.3.0] C:\Users\ankit.chhabra\.gradle\caches\transforms-3\b08d069a487178731d1c3cd63c000071\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+43    </application>
+44
+45</manifest>
